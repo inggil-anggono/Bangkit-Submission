@@ -1,0 +1,200 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for header */
+header {
+    background-color: #032441;
+    color: #ffffff;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.logo-container,
+.logo2-container,
+.logo3-container {
+    flex: 0 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.logo2 {
+    width: 150px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.logo3 {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    flex-basis: 100%;
+}
+
+/* Basic styles for main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-image: url('images/mountains.png'); /* Replace 'path/to/your/image.jpg' with the path to your image file */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Basic styles for footer */
+footer {
+    background-color: #25248b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Profile styles */
+.profile {
+    flex: 1 1 400px; /* Flexbox shorthand for flex-grow, flex-shrink, flex-basis */
+    background: linear-gradient(45deg, rgba(112, 112, 174, 0.5), rgba(250, 250, 251, 0.5));
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin between article and aside */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    text-align: left;
+    color: #fff; /* Set text color to white */
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin-bottom: 5px;
+}
+
+/* Additional styles */
+.home-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.img-wrapper {
+    flex: 0 0 50%; /* Adjust image width */
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.call-to-action {
+    flex: 1 1 400px; /* Flexbox shorthand for flex-grow, flex-shrink, flex-basis */
+    background-color: #032441;
+    color: #fff;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin between article and aside */
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.Cities-pic {
+    flex: 1 1 400px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contact-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.contact {
+    background: linear-gradient(45deg, #7070ae, #fafafb);
+    width: 50%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width for better responsiveness */
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 0 auto; /* This will center the contact section horizontally */
+    text-align: left; /* Align text to the left */
+    overflow: hidden;
+}

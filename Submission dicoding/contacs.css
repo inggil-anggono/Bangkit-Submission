@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #032441;
+  color: #ffffff;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+.go-back {
+  color: #fff; /* Set text color to white */
+}
+
+.header-content {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:5px;
+}
+.contact-main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+.contact {
+  background: linear-gradient(45deg, #7070ae, #fafafb);
+  width: 50%; /* Adjust the width as needed */
+  max-width: 400px; /* Set a maximum width for better responsiveness */
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 0 auto; /* This will center the contact section horizontally */
+  text-align: left; /* Align text to the left */
+  overflow: hidden;
+}
+
+.contact-text {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 0;
+  color: #fefefe;
+}
+.contact li {
+  margin-bottom: 1rem;
+}
